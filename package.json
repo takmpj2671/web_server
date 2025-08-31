@@ -1,8 +1,13 @@
 {
   "name": "web_server",
+  "engines": {
+    "node": "20.18.0",
+    "npm": "10.9.0"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +16,5 @@
   "dependencies": {
     "express": "^5.1.0"
   }
-  
+
 }
